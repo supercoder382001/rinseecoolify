@@ -1,0 +1,42 @@
+{
+  "name": "rinsee",
+  "version": "1.0.0",
+  "description": "A next project generated based on a UIDL document",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "TeleportHQ",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "22.5.5",
+    "@types/react": "18.3.8",
+    "@types/react-dom": "18.3.0",
+    "axios": "^1.7.9",
+    "crypto-js": "^4.2.0",
+    "dangerous-html": "0.1.13",
+    "eslint": "9.0.0",
+    "eslint-config-next": "13.4.4",
+    "next": "^14.2.13",
+    "prop-types": "15.7.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-server-dom-webpack": "^19.0.0",
+    "uuid": "^11.0.4",
+    "python-shell": "3.0.1"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "@types/react": "19.0.3",
+    "typescript": "5.7.2"
+  },
+  "browser":{
+    "child_process": false
+  } 
+}

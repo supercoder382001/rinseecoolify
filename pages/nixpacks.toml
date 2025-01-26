@@ -1,0 +1,39 @@
+[phases.setup]
+# Install Node.js and any other required global tools
+commands = [
+  "corepack enable", # Enable Corepack for managing package managers like Yarn
+  "corepack prepare pnpm@latest --activate" # Use pnpm (or yarn/npm) if needed
+]
+
+[phases.install]
+# Install project dependencies with --legacy-peer-deps
+commands = [
+  "npm install --legacy-peer-deps" # Replace with the package manager command you are using
+]
+
+[phases.build]
+# Build the Next.js application
+commands = [
+  "npm run build" # Replace with `pnpm build` or `yarn build` if not using npm
+]
+
+[phases.start]
+# Start the Next.js application
+commands = [
+  "npm start" # Replace with `pnpm start` or `yarn start` as necessary
+]
+
+[environment]
+# Define environment variables
+NODE_ENV = "production"
+
+[deploy]
+# Define the default command for deployment
+defaultCommand = "npm start" # Replace with `pnpm start` or `yarn start`
+
+[cache]
+# Cache directories to speed up rebuilds
+paths = [
+  "node_modules",
+  ".next/cache"
+]

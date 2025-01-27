@@ -7,6 +7,15 @@ export const config = {
 };
 
 export default function handler(req, res) {
+  res.setHeader('Access-Control-Allow-Origin', '*'); // Allow all origins
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS'); // Allowed methods
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type'); // Allowed headers
+
+  // Handle preflight request (OPTIONS method)
+  if (req.method === 'OPTIONS') {
+    res.status(200).json({ error: 'Options not allowed'});
+    return;
+  }
   if (req.method === 'POST') {
     const { merchant_transaction_id, amount, merchant_user_id } = req.body;
 

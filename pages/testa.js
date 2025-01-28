@@ -33,7 +33,7 @@ export default function Page() {
     // Simulate a small delay for the loader
     setTimeout(() => setLoading(false), 2000);
   }, [mid]);
-  
+
   return (
     <div>
       <Head>
@@ -60,7 +60,7 @@ export default function Page() {
 
         iframe {
           width: 100%;
-          height: 100%;
+          height: 650px;
           border: none;
           display: ${linked ? "block" : "none"};
         }

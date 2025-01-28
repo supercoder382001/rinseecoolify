@@ -45,14 +45,13 @@ export default function Page() {
         body {
           margin: 0;
           padding: 0;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100vh;
-          background: #000;
+          display: flow-root;
+          height: 100%;
+          background: white;
           color: white;
           font-family: Arial, sans-serif;
         }
+        
 
         h1 {
           text-align: center;
@@ -60,7 +59,7 @@ export default function Page() {
 
         iframe {
           width: 100%;
-          height: 650px;
+          height: 750px;
           border: none;
           display: ${linked ? "block" : "none"};
         }

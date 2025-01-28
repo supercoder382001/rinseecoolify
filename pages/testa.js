@@ -18,7 +18,7 @@ export default function Page() {
         console.log("Decoded JSON:", jsonObject);
 
         // Extract the URL
-        const url = jsonObject?.data?.instrumentResponse?.redirectInfo?.url;
+        const url = jsonObject?.payment_url;
         if (url) {
           setLinked(url);
         } else {
@@ -37,7 +37,7 @@ export default function Page() {
     if (linked) {
       // Automatically redirect after 1 second
       const timer = setTimeout(() => {
-        window.open(linked, "_self");
+        window.open(linked, "_parent");
       }, 1000);
 
       return () => clearTimeout(timer); // Cleanup the timer
@@ -63,13 +63,18 @@ export default function Page() {
           text-align: center;
         }
 
-        button {
-          display: none; /* Hide the button */
+        iframe {
+          width: 100%;
+          height: 100%;
+          border: none;
+          display: ${linked ? "block" : "none"};
         }
       `}</style>
 
       {loading ? (
         <h1>Loading...</h1>
+      ) : linked ? (
+        <iframe src={linked} title="Redirect Frame" />
       ) : (
         <h1>Redirecting...</h1>
       )}

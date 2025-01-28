@@ -75,12 +75,19 @@ export default function Page() {
           border: none;
           display: ${linked ? "block" : "none"};
         }
+        #frame {
+          width:350;
+          height:891;
+          resize: both;
+        }
       `}</style>
 
       {loading ? (
         <h1>Loading...</h1>
       ) : linked ? (
-        <iframe src={linked} title="Redirect Frame" />
+        <div id="frame">
+          <iframe src={linked} title="Redirect Frame" />
+        </div>
       ) : (
         <h1>Redirecting...</h1>
       )}

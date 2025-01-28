@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import Head from "next/head";
 
 export default function Page() {
   const searchParams = useSearchParams();

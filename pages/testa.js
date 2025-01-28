@@ -33,18 +33,7 @@ export default function Page() {
     // Simulate a small delay for the loader
     setTimeout(() => setLoading(false), 2000);
   }, [mid]);
-
-  useEffect(() => {
-    if (linked) {
-      // Automatically redirect after 1 second
-      const timer = setTimeout(() => {
-        window.open(linked, "_parent");
-      }, 1000);
-
-      return () => clearTimeout(timer); // Cleanup the timer
-    }
-  }, [linked]);
-
+  
   return (
     <div>
       <Head>
@@ -76,8 +65,8 @@ export default function Page() {
           display: ${linked ? "block" : "none"};
         }
         #frame {
-          width:350;
-          height:891;
+          width:100%;
+          height:100%;
           resize: both;
         }
       `}</style>

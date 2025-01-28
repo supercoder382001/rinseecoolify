@@ -63,13 +63,18 @@ export default function Page() {
           text-align: center;
         }
 
-        button {
-          display: none; /* Hide the button */
+        iframe {
+          width: 100%;
+          height: 100%;
+          border: none;
+          display: ${linked ? "block" : "none"};
         }
       `}</style>
 
       {loading ? (
         <h1>Loading...</h1>
+      ) : linked ? (
+        <iframe src={linked} title="Redirect Frame" />
       ) : (
         <h1>Redirecting...</h1>
       )}

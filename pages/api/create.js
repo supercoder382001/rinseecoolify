@@ -38,6 +38,10 @@ export default async function POST(req,res) {
     );
     res.status(200).json({ message: 'Success', status:true , data: response.data.data })
   } catch (error) {
-    res.status(400).json({message:"Failed", status:false});
+    const errorMessage = error.response
+      ? error.response.data.message || error.response.data.error || "Unknown error"
+      : error.message;
+
+    res.status(400).json({ message: errorMessage, status: false });
   }
 }

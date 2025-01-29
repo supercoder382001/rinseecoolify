@@ -5,20 +5,19 @@ import axios from "axios";
 export default async function POST(req,res) {
   try {
     const data =  req.body;
-    const apidata = {
+    const apidataa={
       merchantId: "M226CLAX56BUS",
       merchantTransactionId: data.merchantTransactionId,
       merchantUserId: data.merchantUserId,
       amount: data.amount,
-      redirectUrl: `https://rinsee.in/api/hello`,
-      redirectMode: "POST",
       callbackUrl: "https://rinsee.in/api/result",
       mobileNumber: data.mobileNumber,
       paymentInstrument: {
-        type: "PAY_PAGE",
-      },
+        type: "UPI_COLLECT",
+        vpa: data.upiid
+      }
     };
-    const data2 = JSON.stringify(apidata);
+    const data2 = JSON.stringify(apidataa);
     const base64data = Buffer.from(data2).toString("base64");
 
     const hash = crypto
@@ -38,12 +37,7 @@ export default async function POST(req,res) {
       }
     );
     res.status(200).json({ message: 'Success', status:true , data: response.data.data })
-    // return NextResponse.json({ message: "Success", data: response.data });
-    // return new NextResponse(
-    //   JSON.stringify({ success: true, data: response.data.data }),
-    //   { status: 200, headers: { 'Content-Type': 'application/json' } }
-    // );
   } catch (error) {
-    res.status(400).json({message:"Failed", status:false, e:error});
+    res.status(400).json({message:"Failed", status:false});
   }
 }

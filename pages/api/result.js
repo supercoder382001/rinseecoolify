@@ -56,9 +56,9 @@ const handler = async (req, res) => {
         amount: amount,
         state: state,
         responseCode: responseCode,
-        paymentInstrumentType: paymentInstrument.type,
-        utr: paymentInstrument.utr,
-        accountType: paymentInstrument.accountType,
+        paymentInstrumentType: paymentInstrument?.type || null,
+        utr: paymentInstrument?.utr || null,
+        accountType: paymentInstrument?.accountType || null,
         feesAmount: feesContext.amount,
       };
 

@@ -31,7 +31,7 @@ const Prices = (props) => {
                 </header>
                 <div className="prices-buttons">
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                    href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="prices-link10"
@@ -99,7 +99,7 @@ const Prices = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="prices-link11"
@@ -435,7 +435,7 @@ const Prices = (props) => {
                 </header>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="prices-link12"

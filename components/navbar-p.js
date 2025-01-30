@@ -119,7 +119,7 @@ const NavbarP = (props) => {
             </div>
           </div>
           <div className="get-started navbar-p-get-started1">
-            <span className="navbar-p-text17">Get started</span>
+            <a href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L" className="navbar-p-text17">Get started</a>
           </div>
           <div id="open-mobile-menu" className="navbar-p-hamburger get-started">
             <img
@@ -241,7 +241,7 @@ const NavbarP = (props) => {
             </div>
           </div>
           <div className="get-started">
-            <span className="navbar-p-text25">Get started</span>
+            <a href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L" className="navbar-p-text25">Get started</a>
           </div>
         </div>
         <div>

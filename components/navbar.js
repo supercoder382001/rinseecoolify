@@ -117,7 +117,7 @@ const Navbar = (props) => {
             </div>
           </div>
           <div className="get-started navbar-get-started1">
-            <span className="navbar-text17">Get started</span>
+            <a href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L" className="navbar-text17">Get started</a>
           </div>
           <div id="open-mobile-menu" className="navbar-hamburger get-started">
             <img
@@ -243,7 +243,7 @@ const Navbar = (props) => {
 
           </div>
           <div className="get-started">
-            <span className="navbar-text25">Get started</span>
+            <a href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L" className="navbar-text25">Get started</a>
           </div>
         </div>
         <div>

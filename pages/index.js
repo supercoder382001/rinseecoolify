@@ -48,7 +48,7 @@ const Home = (props) => {
                 </header>
                 <div className="home-buttons1">
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                    href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="home-link10"
@@ -146,7 +146,7 @@ const Home = (props) => {
                 ></Card3>
               </div>
               <a
-                href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link11"
@@ -210,7 +210,7 @@ const Home = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link12"
@@ -278,7 +278,7 @@ const Home = (props) => {
                 ></Card7>
               </div>
               <a
-                href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link13"
@@ -478,7 +478,7 @@ const Home = (props) => {
             </div>
             <div className="home-buttons2">
               <a
-                href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link18"
@@ -533,7 +533,7 @@ const Home = (props) => {
                   </div>
                   <div className="home-buy-details1">
                     <a
-                      href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                      href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="home-link19"
@@ -596,7 +596,7 @@ const Home = (props) => {
                   </div>
                   <div className="home-buy-details2">
                     <a
-                      href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                      href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="home-link20"
@@ -659,7 +659,7 @@ const Home = (props) => {
                   </div>
                   <div className="home-buy-details3">
                     <a
-                      href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                      href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="home-link21"
@@ -742,7 +742,7 @@ const Home = (props) => {
                   <span className="home-text70">Download for iOS</span>
                 </div>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
+                  href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-link22"

@@ -26,7 +26,7 @@ function submit() {
         })
       });
       if (!response.ok) {
-          window.location.href = 'https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc';
+          window.location.href = 'https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L';
       } else {
         console.error('Error:', response);
       }  } 

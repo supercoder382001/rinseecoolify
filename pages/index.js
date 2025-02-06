@@ -27,6 +27,17 @@ const Home = (props) => {
           <meta name="description" content="Rinsee delivers fast, reliable laundry service in Delhi, specializing in clothes washing and ironing. Open 24/7 located in Delhi, Noida and Gurgaon. Our express service ensures your garments are cleaned, ironed and delivered to your doorstep. Enjoy hassle free laundry with Rinsee - where convenience and quality meet for a spotless experience."/>
           <meta name="keywords" content="laundry near me, laundry services in noida, best laundry services in delhi, best laundry services, express laundry services, clothes washing service near me, dhobi near me, presswala, clothes washer, carpet cleaning, shoe cleaning, dry cleaners, laundromat"/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          
+          <meta property="og:title" content="Rinsee - Express Laundry in Delhi | Fast, Reliable Clothes Washing & Ironing services" />
+          <meta property="og:description" content="Rinsee delivers fast, reliable laundry service in Delhi, specializing in clothes washing and ironing. Open 24/7 located in Delhi, Noida and Gurgaon. Our express service ensures your garments are cleaned, ironed and delivered to your doorstep. Enjoy hassle free laundry with Rinsee - where convenience and quality meet for a spotless experience." />
+          <meta property="og:image" content="https://rinsee.in/external/logo.png" />
+          <meta property="og:url" content="https://rinsee.in" />
+          <meta property="og:type" content="website" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Rinsee - Express Laundry in Delhi | Fast, Reliable Clothes Washing & Ironing services" />
+          <meta name="twitter:description" content="Rinsee delivers fast, reliable laundry service in Delhi, specializing in clothes washing and ironing. Open 24/7 located in Delhi, Noida and Gurgaon. Our express service ensures your garments are cleaned, ironed and delivered to your doorstep. Enjoy hassle free laundry with Rinsee - where convenience and quality meet for a spotless experience." />
+          <meta name="twitter:image" content="https://rinsee.in/external/logo.png" />
         </Head>
         <Navbar
           imageAlt="../Icons/hamburger-200h.png"

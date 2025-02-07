@@ -33,7 +33,7 @@ const DryClean = (props) => {
                 </header>
                 <div className="dry-clean-buttons">
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                    href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="dry-clean-link10"
@@ -124,7 +124,7 @@ const DryClean = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="dry-clean-link11"
@@ -392,7 +392,7 @@ const DryClean = (props) => {
                 </header>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="dry-clean-link12"

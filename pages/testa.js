@@ -57,6 +57,10 @@ export default function Page() {
           text-align: center;
         }
 
+        .loading-text {
+          color: black; /* Change color to black */
+        }
+        
         iframe {
           width: 100%;
           height: 750px;
@@ -71,7 +75,7 @@ export default function Page() {
       `}</style>
 
       {loading ? (
-        <h1>Loading...</h1>
+        <h1 className="loading-text">Loading...</h1>
       ) : linked ? (
         <div id="frame">
           <iframe src={linked} title="Redirect Frame" />

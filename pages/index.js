@@ -27,7 +27,7 @@ const Home = (props) => {
           <meta name="description" content="Rinsee delivers fast, reliable laundry service in Delhi, specializing in clothes washing and ironing. Open 24/7 located in Delhi, Noida and Gurgaon. Our express service ensures your garments are cleaned, ironed and delivered to your doorstep. Enjoy hassle free laundry with Rinsee - where convenience and quality meet for a spotless experience."/>
           <meta name="keywords" content="laundry near me, laundry services in noida, best laundry services in delhi, best laundry services, express laundry services, clothes washing service near me, dhobi near me, presswala, clothes washer, carpet cleaning, shoe cleaning, dry cleaners, laundromat"/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-          
+
           <meta property="og:title" content="Rinsee - Express Laundry in Delhi | Fast, Reliable Clothes Washing & Ironing services" />
           <meta property="og:description" content="Rinsee delivers fast, reliable laundry service in Delhi, specializing in clothes washing and ironing. Open 24/7 located in Delhi, Noida and Gurgaon. Our express service ensures your garments are cleaned, ironed and delivered to your doorstep. Enjoy hassle free laundry with Rinsee - where convenience and quality meet for a spotless experience." />
           <meta property="og:image" content="https://rinsee.in/external/logo.png" />
@@ -59,7 +59,7 @@ const Home = (props) => {
                 </header>
                 <div className="home-buttons1">
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                    href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="home-link10"
@@ -157,7 +157,7 @@ const Home = (props) => {
                 ></Card3>
               </div>
               <a
-                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link11"
@@ -221,7 +221,7 @@ const Home = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link12"
@@ -289,7 +289,7 @@ const Home = (props) => {
                 ></Card7>
               </div>
               <a
-                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link13"
@@ -489,7 +489,7 @@ const Home = (props) => {
             </div>
             <div className="home-buttons2">
               <a
-                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link18"
@@ -544,7 +544,7 @@ const Home = (props) => {
                   </div>
                   <div className="home-buy-details1">
                     <a
-                      href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                      href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="home-link19"
@@ -607,7 +607,7 @@ const Home = (props) => {
                   </div>
                   <div className="home-buy-details2">
                     <a
-                      href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                      href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="home-link20"
@@ -670,7 +670,7 @@ const Home = (props) => {
                   </div>
                   <div className="home-buy-details3">
                     <a
-                      href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                      href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="home-link21"
@@ -753,7 +753,7 @@ const Home = (props) => {
                   <span className="home-text70">Download for iOS</span>
                 </div>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                  href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-link22"

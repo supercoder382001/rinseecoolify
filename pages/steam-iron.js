@@ -35,7 +35,7 @@ const SteamIron = (props) => {
                 </header>
                 <div className="steam-iron-buttons">
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                    href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="steam-iron-link10"
@@ -122,7 +122,7 @@ const SteamIron = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="steam-iron-link11"
@@ -391,7 +391,7 @@ const SteamIron = (props) => {
                 </header>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="steam-iron-link12"

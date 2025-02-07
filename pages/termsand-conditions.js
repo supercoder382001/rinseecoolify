@@ -586,7 +586,7 @@ const TermsandConditions = (props) => {
                   </span>
                 </div>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1WwKp39lP3ReCJvZ73QM--KWwrjIIJ6-L"
+                  href="https://drive.google.com/uc?export=download&id=1tXrUBEa1us9V7rst5HiFdcKh_nGkHXeg"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="termsand-conditions-link1"

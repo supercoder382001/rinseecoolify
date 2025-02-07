@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
+import Script from 'next/script';
+import { useRouter } from 'next/router';
+import * as gtag from '../lib/gtag';  // Import Google Analytics functions
 import "./style.css"; // Ensure this is the correct path to your global styles
 
 export default function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);  // Track page views on route change
+    };
+
+    router.events.on('routeChangeComplete', handleRouteChange);
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <>
       <Head>
@@ -16,6 +32,23 @@ export default function MyApp({ Component, pageProps }) {
         />
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
+      {/* <script defer src="http://localhost:3000/script.js" data-website-id="0381e7a5-76ba-4973-8916-ab1e30cb8b89"></script> */}
+      {/* Google Analytics Scripts */}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${gtag.GA_TRACKING_ID}', {
+            page_path: window.location.pathname,
+          });
+        `}
+      </Script>
+
       <Component {...pageProps} />
     </>
   );

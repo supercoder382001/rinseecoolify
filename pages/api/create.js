@@ -10,11 +10,12 @@ export default async function POST(req,res) {
       merchantTransactionId: data.merchantTransactionId,
       merchantUserId: data.merchantUserId,
       amount: data.amount,
+      redirectUrl: `https://rinsee.in`,
+      redirectMode: "POST",
       callbackUrl: "https://rinsee.in/api/result",
       mobileNumber: data.mobileNumber,
       paymentInstrument: {
-        type: "UPI_COLLECT",
-        vpa: data.upiid
+        type: "PAY_PAGE",
       }
     };
     const data2 = JSON.stringify(apidataa);
